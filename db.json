@@ -1,0 +1,354 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "emailId": "typicode",
+      "dept": "typicode",
+      "password": "typicode"
+    },
+    {
+      "id": "1810058",
+      "name": "shivam",
+      "emailId": null,
+      "dept": "CSE",
+      "password": "1234"
+    },
+    {
+      "id": "YanDo8-",
+      "name": null,
+      "emailId": null,
+      "dept": null,
+      "password": null
+    },
+    {
+      "id": "fr",
+      "name": "tr",
+      "emailId": null,
+      "dept": null,
+      "password": null
+    },
+    {
+      "id": "18323323",
+      "name": "Shivam",
+      "emailId": null,
+      "dept": "CSE",
+      "password": "shivam"
+    },
+    {
+      "UniqueId": "12345678",
+      "name": "Shivam",
+      "email": "check@gmail.com",
+      "Department": "CSE",
+      "password": "1234",
+      "event": [],
+      "task": [],
+      "proposal": [],
+      "id": "A5c0x3m"
+    },
+    {
+      "id": "111111"
+    },
+    {
+      "proposal": [
+        {
+          "isAccepted": true,
+          "id": "87896",
+          "name": "To Extend the Working Hours"
+        }
+      ],
+      "id": "999"
+    },
+    {
+      "UniqueId": "888",
+      "name": "shiva",
+      "email": "888@gmail.com",
+      "Department": "CSE",
+      "password": "1234",
+      "event": [],
+      "task": [],
+      "proposal": [
+        {
+          "isAccepted": true,
+          "id": "87896",
+          "name": "To Extend the Working Hours"
+        },
+        {
+          "isAccepted": false,
+          "id": "878546"
+        },
+        {
+          "isAccepted": false,
+          "id": "VxBfHX5",
+          "name": "Double Diwali Bonus"
+        },
+        {
+          "isAccepted": false,
+          "id": "DDBNGLK",
+          "name": "newProposal"
+        },
+        {
+          "isAccepted": true,
+          "id": "GP8EZGh",
+          "name": "dgfg"
+        }
+      ],
+      "id": "888"
+    },
+    {
+      "UniqueId": "1822010001",
+      "name": "Abhay",
+      "email": "abhay@gmail.com",
+      "Department": "CSE",
+      "password": "1234",
+      "event": [
+        {
+          "isVoted": true,
+          "votedName": "Sachin",
+          "id": "1"
+        }
+      ],
+      "task": [
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "l-r-Zyy",
+          "name": "Task 2"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "50OM9eK",
+          "name": "dfdgfd"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "hJFWTuC",
+          "name": "fgfhf"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "21fjHd5",
+          "name": "fdfdfdgd55"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "l_Rpwfo",
+          "name": "d443fdgfd"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "UPlX-1j",
+          "name": "dff333333"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "S4PPVvs",
+          "name": "1234"
+        }
+      ],
+      "proposal": [
+        {
+          "isAccepted": true,
+          "id": "oxNKa4G",
+          "name": "Created Proposal"
+        },
+        {
+          "isAccepted": false,
+          "id": "87896",
+          "name": "To Extend the Working Hours"
+        },
+        {
+          "isAccepted": true,
+          "id": "BHRaR9a",
+          "name": "1111111"
+        }
+      ],
+      "id": "1822010001"
+    },
+    {
+      "UniqueId": "1822010003",
+      "name": "Abhishek",
+      "email": "abhishek@gmail.com",
+      "Department": "CSE",
+      "password": "1234",
+      "event": [
+        {
+          "isVoted": true,
+          "votedName": "Shivam Kumar",
+          "id": "1"
+        }
+      ],
+      "task": [
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "l-r-Zyy",
+          "name": "Task 2"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "50OM9eK",
+          "name": "dfdgfd"
+        },
+        {
+          "inProgress": true,
+          "isCompleted": false,
+          "id": "hJFWTuC",
+          "name": "fgfhf"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "21fjHd5",
+          "name": "fdfdfdgd55"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "l_Rpwfo",
+          "name": "d443fdgfd"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "UPlX-1j",
+          "name": "dff333333"
+        },
+        {
+          "inProgress": false,
+          "isCompleted": true,
+          "id": "S4PPVvs",
+          "name": "1234"
+        }
+      ],
+      "proposal": [
+        {
+          "isAccepted": true,
+          "id": "oxNKa4G",
+          "name": "Created Proposal"
+        },
+        {
+          "isAccepted": false,
+          "id": "87896",
+          "name": "To Extend the Working Hours"
+        },
+        {
+          "isAccepted": true,
+          "id": "BHRaR9a",
+          "name": "1111111"
+        }
+      ],
+      "id": "1822010003"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "task": [
+    {
+      "name": "latestTask",
+      "desc": "task to complete",
+      "assignedTo": "CSE",
+      "assignedDate": "2022-05-29",
+      "dueDate": "2022-06-01",
+      "inProgress": false,
+      "isCompleted": false,
+      "inProgressBy": [],
+      "completedBy": [
+        {
+          "id": "999",
+          "name": "shiv"
+        }
+      ],
+      "id": "l6QC0H_"
+    },
+    {
+      "name": "Unit-3 Data Structures",
+      "desc": "Complete assignment provided within due date.",
+      "assignedTo": "CSE",
+      "assignedDate": "2022-05-30",
+      "dueDate": "2022-06-02",
+      "inProgress": false,
+      "isCompleted": false,
+      "inProgressBy": [],
+      "completedBy": [],
+      "id": "xQCzeSN"
+    }
+  ],
+  "events": [
+    {
+      "name": "Mr. Fresher 2022",
+      "desc": "Who should be the Mr. Fresher 2022 ? Cast your Vote Now!!",
+      "assignedTo": "CSE",
+      "closingOn": null,
+      "candidates": [
+        {
+          "name": "Mr. Shivam Kumar",
+          "gender": "male",
+          "totalVotes": 0
+        },
+        {
+          "name": "Mr. Rahul",
+          "gender": "male",
+          "totalVotes": 0
+        },
+        {
+          "name": "Mr. Sachin",
+          "gender": "male",
+          "totalVotes": 0
+        }
+      ],
+      "isClosed": false,
+      "votedName": "",
+      "id": 1
+    },
+    {
+      "name": "Ms. Fresher 2022",
+      "desc": "Who should be the Ms. Fresher 2022? Cast your vote now!!",
+      "assignedTo": "CSE",
+      "closingOn": null,
+      "candidates": [
+        {
+          "name": "Ms. Aditi",
+          "gender": "female",
+          "totalVotes": 0
+        }
+      ],
+      "isClosed": false,
+      "votedName": "",
+      "id": 2
+    }
+  ],
+  "proposal": [
+    {
+      "id": "87896",
+      "title": "To Extend the Working Hours",
+      "desc": "To Complete the targets within Time we are thinking to extend working hours.",
+      "isAccepted": false,
+      "isRejected": true,
+      "acceptedBy": [
+        {
+          "id": "888",
+          "name": "shiva"
+        }
+      ],
+      "rejectedBy": [
+        {
+          "id": "1822010003",
+          "name": "Abhishek"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<div class="container" >
+  <div class="row" >
+<div class="card col-3" style="width: 18rem;" *ngFor="let a of task">
+    <img src="./assets/task.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{a.name}}</h5>
+      <p class="card-text text-primary">Assigned Date: {{a.assignedDate}}</p>
+      <p class="card-text text-danger">Due Date: {{a.dueDate}}</p>
+      <button class="btn btn-primary" (click)="details(a.id)" >Details</button>
+    </div>
+  </div>
+</div>
+</div>

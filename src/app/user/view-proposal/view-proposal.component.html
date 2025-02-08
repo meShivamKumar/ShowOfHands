@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header">
+    <h1 class="display-6">Proposals of this Week</h1> 
+    </div>
+    <div class="card-body row">
+        <div class="col-12" *ngFor="let p of proposal index as i ; let a of userProposal">
+            <h5 class="card-title">{{p.title}}</h5>
+            <p class="card-text">{{p.desc}}</p>
+            <p class="text-end"><button (click)="viewProposal(p.id)" class="btn btn-primary">Click to See more Information</button></p>
+            <hr>
+        </div>
+       
+        </div>
+        </div>

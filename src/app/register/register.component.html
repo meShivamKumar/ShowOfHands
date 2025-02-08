@@ -1,0 +1,46 @@
+
+<div class="row">
+    <div class="col-3"><button type="button" class="btn btn-dark" (click)="back()"> &lt;Back </button></div>
+    
+</div>
+<div class="bg-light">
+  <h1 class="display-5 text-primary">Register</h1>
+<div class="box row" >
+    <form [formGroup]="form" (ngSubmit)="register()">
+        <div class="row">
+            <h6 class="text-dark">Unique ID:</h6>
+            <div class="row-3">
+            <input type="text" formControlName="UniqueId" required></div>
+        </div>
+        <div class="row">
+            <h6 class="text-dark">Name :</h6>
+            <div class="row-3">
+            <input type="text" formControlName="name" required></div>
+        </div>
+        <div class="row">
+            <h6 class="text-dark">Email Id:</h6>
+            <div class="row-3">
+            <input type="email" formControlName="email" required></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-2">
+            <h6 class="text-dark">Department:</h6></div>
+            <div class="col">
+            <select type="select"  formControlName="Department" required>
+            <option value="CSE" selected>CSE</option>
+            <option value="IT">IT</option>
+            <option value="EE">EE/EC</option></select>
+        </div><br>
+        </div><br>
+        <div class="row">
+            <h6 class="text-dark button"> Create Password:</h6>
+            <div class="col">
+            <input type="password" formControlName="password" required></div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-dark"   > Register</button>
+    </form>
+</div>
+
+</div>

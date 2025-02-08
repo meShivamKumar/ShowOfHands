@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="card-header">
+      Events
+    </div>
+    <div class="card-body row" *ngFor="let e of events">
+        <div class="col">
+        <h5 class="card-title">{{e.name}}</h5>
+        <p class="card-text">{{e.desc}}</p></div>
+        <div class="col">
+            <button href="#" class="btn btn-primary" (click)="details(e.id)" >See Candidates</button>
+        </div>
+        
+    
+</div>
+    <hr>
+
+    
+</div>
+    
+  

@@ -1,0 +1,27 @@
+<div class="main">
+    <div class="col-3"><button type="button" class="btn btn-dark" (click)="back()"> &lt;Back </button></div>
+    <h4 class="display-5 text-center">
+        Proposal Details
+    </h4>
+   
+</div>
+  <div>
+    <div class="text ">
+      <label class="text-primary" position="stacked">Name</label>
+      <p>{{proposal.title}}</p>
+    </div>
+    <div class="text ">
+        <label class="text-primary" position="stacked">Description</label>
+        <p>{{proposal.desc}}</p>
+      </div>
+     
+      <div class="text-center" *ngIf="present">
+       <h4 class="display-6 text-success" *ngIf="mainProposal.isAccepted">Accepted </h4>
+       <h4 class="display-6 text-danger" *ngIf="!mainProposal.isAccepted">Rejected </h4>
+      </div>
+      <hr>
+      <div class="text-center" *ngIf="!present">
+        <button  class="btn btn-success" (click)="accept()">ACCEPT</button>
+        <button  class="btn btn-danger" (click)="reject()">REJECT</button>
+      </div>
+    </div>

@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-header">
+        <h5 class="display-6" > Proposals</h5>
+    
+    <div class="text-end"><button class="btn btn-success" (click)="addProposal()">+Add Proposals</button> </div></div>
+    <div class="card-body row">
+        <div class="col-12" *ngFor="let p of proposal">
+            <h5 class="card-title">{{p.title}}</h5> 
+            <p class="card-text">{{p.desc}}</p>
+           
+         <button href="#" class="btn btn-danger" (click)="deleteProposal(p.id)">Delete</button><p class="text-end"><button (click)="viewProposal(p.id)" class="btn btn-primary">Click to See more Information</button></p>
+            
+            <hr>
+        </div>
+       
+        </div>
+        </div>

@@ -1,0 +1,26 @@
+
+<div class="row">
+    <div class="col-3"><button type="button" class="btn btn-dark" (click)="back()"> &lt;Back </button></div>
+    
+</div>
+<div class="bg-light">
+  <h1 class="display-5 text-primary text-center">Create Proposal</h1>
+<div class="box row text-center" >
+    <form [formGroup]="form" (ngSubmit)="create()">
+        <div class="row">
+            <h6 class="text-dark">Title :</h6>
+            <div class="row-3">
+            <input type="text" size="100" formControlName="title" required></div>
+        </div>
+        <div class="row">
+            <h6 class="text-dark">Description:</h6>
+            <div >
+            <input type="text" size="100" formControlName="desc" required></div>
+        </div>
+        <br>
+        
+        <button type="submit" class="btn btn-primary"> Create</button>
+    </form>
+</div>
+
+</div>

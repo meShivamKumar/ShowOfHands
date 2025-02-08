@@ -1,0 +1,22 @@
+<div >
+    <div class="card-header">
+        <h5 class="display-6" > Assigned Tasks</h5>
+    
+    <div class="text-end"><button class="btn btn-success" (click)="addTask()">+Assign Task</button> </div></div>
+    <div  *ngFor="let t of task">
+        <div >
+        <h5 >{{t.name}}</h5>
+        <p class="font-weight-bold">Assigned To <strong> {{t.assignedTo}}</strong> Department</p>
+        <p class="text-danger">{{t.dueDate}}</p>
+    </div>
+        <button class="btn btn-danger" (click)="deleteTask(t.id)">Delete</button><p class="text-end"><button (click)="viewTask(t.id)"  class="btn btn-primary">Click to See more Information</button></p>
+        
+        <hr>
+    
+</div>
+  
+
+    
+</div>
+    
+  

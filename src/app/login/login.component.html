@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-3"><button type="button" class="btn btn-dark" (click)="back()"> &lt;Back </button></div>
+    
+</div>
+<div class="bg-light">
+    <h1 class="display-6 center text-primary">Login as {{type}}</h1>
+<div class="box row" *ngIf="asUser">
+    <form [formGroup]="form" (ngSubmit)="userLogin()">
+        <div class="row">
+            <h6 class="text-dark">User ID:</h6>
+            <div class="row-3">
+            <input type="id" formControlName="UniqueId"></div>
+        </div>
+        <div class="row">
+            <h6 class="text-dark button">Password:</h6>
+            <div class="col">
+            <input type="password" formControlName="password"></div>
+        </div>
+        <br>
+        <button type="button" class="btn btn-dark" (click)="userLogin()"> Login</button>
+    </form>
+</div>
+<div class="box row" *ngIf="asAdmin">
+    <form [formGroup]="adminForm" (ngSubmit)="adminLogin()">
+        <div class="row">
+            <h6 class="text-dark">Admin ID:</h6>
+            <div class="row-3">
+            <input type="id" formControlName="adminId"></div>
+        </div>
+        <div class="row">
+            <h6 class="text-dark button">Password:</h6>
+            <div class="col">
+            <input type="password" formControlName="password"></div>
+        </div>
+        <br>
+        <button type="button" class="btn btn-dark" (click)="adminLogin()"> Login</button>
+    </form>
+</div>
+
+</div>

@@ -1,0 +1,32 @@
+<div class="main">
+    <div class="col-3"><button type="button" class="btn btn-dark" (click)="back()"> &lt;Back </button></div>
+    <h4 class="display-5 text-center">
+       {{event.name}}
+    </h4>
+</div>
+<div *ngIf="isVoted" >
+    <div class="row">
+       
+                  <h5 class="card-title text-center">You Have Already Voted!!</h5>
+                  <h5  class=" display-6 card-text text-center">
+                  YOU VOTED {{voteDetail.votedName}}</h5>
+               
+        </div>
+    </div>
+<div >
+    <div class="row">
+        <div class="col-4" *ngFor="let c of candidates index as i">
+            <div class="card" style="width: 18rem;">
+                <img *ngIf="c.gender=='male' " src="./assets/male.png" class="card-img-top" alt="...">
+                <img *ngIf="c.gender=='female' " src="./assets/female.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">{{c.name}}</h5>
+                  <p class="card-text text-center">
+                  <button *ngIf="!isVoted" class="btn btn-primary text-center" (click)="vote(c.name,i)">VOTE</button></p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+

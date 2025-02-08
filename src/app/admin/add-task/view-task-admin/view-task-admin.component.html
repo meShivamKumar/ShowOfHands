@@ -1,0 +1,64 @@
+<div >
+    <div class="card-header">
+        <h1 class="display-5 text-primary text-center">{{task.name}}</h1>
+    
+        <div class="col-3"><button type="button" class="btn btn-dark" (click)="back()"> &lt;Back </button></div>
+    <div >
+        <div >
+        <h6 class=" text-center"></h6>
+       <h5 class="text-primary">Completed By</h5>
+        <hr>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <strong> ID</strong> 
+              </div>
+              <div class="col">
+                <strong> Candidate</strong> 
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="container" *ngFor="let c of completedBy" >
+            <div class="row" >
+              <div class="col">
+               {{c.id}}
+              </div>
+              <div class="col">
+             {{c.name}}
+              </div>
+            </div>
+            <hr>
+          </div>
+          <h5 class="text-warning">In Progress By</h5>
+          <hr>
+          <div class="container">
+              <div class="row">
+                <div class="col">
+                  <strong> ID</strong> 
+                </div>
+                <div class="col">
+                    <strong> Candidate</strong> 
+                  </div>
+              </div>
+            </div>
+            <hr>
+            <div class="container" *ngFor="let c of inProgressBy" >
+              <div class="row" >
+                <div class="col">
+                 {{c.id}}
+                </div>
+                <div class="col">
+               {{c.name}}
+                </div>
+              </div>
+              <hr>
+            </div>
+    
+</div>
+  
+
+    
+</div>
+    
+  
