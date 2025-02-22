@@ -1,5 +1,7 @@
 # ShowOfHands
 
+It is a web application that is designed for HIET College. It is a voting portal that is used by Students to vote for their favourite candidate.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 
 ## Development server
